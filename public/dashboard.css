@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ADEZ TECH | Dashboard</title>
+
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+  <aside class="sidebar" id="sidebar">
+
+    <div class="brand">
+      ADEZ<span>TECH</span>
+    </div>
+
+    <div class="profile">
+      <div class="avatar">AA</div>
+      <div>
+        <strong>Arnold Adez</strong>
+        <small>CEO</small>
+      </div>
+    </div>
+
+    <nav>
+
+      <a href="#" class="active">
+        <span>📊</span>
+        Dashboard
+      </a>
+
+      <a href="#">
+        <span>🛠️</span>
+        Services
+      </a>
+
+      <a href="#">
+        <span>📁</span>
+        Projects
+      </a>
+
+      <a href="#">
+        <span>🤖</span>
+        WhatsApp Bots
+      </a>
+
+      <a href="#">
+        <span>🔌</span>
+        APIs
+      </a>
+
+      <a href="#">
+        <span>👤</span>
+        Profile
+      </a>
+
+      <a href="#">
+        <span>⚙️</span>
+        Settings
+      </a>
+
+    </nav>
+
+    <div class="sidebar-bottom">
+      <a href="/">
+        ← Back to Website
+      </a>
+    </div>
+
+  </aside>
+
+
+  <main class="main">
+
+    <header class="topbar">
+
+      <button class="menu" onclick="toggleSidebar()">
+        ☰
+      </button>
+
+      <div>
+        <h1>Dashboard</h1>
+        <p>Welcome back to ADEZ TECH.</p>
+      </div>
+
+      <div class="top-profile">
+        <div class="avatar small">AA</div>
+      </div>
+
+    </header>
+
+
+    <section class="dashboard">
+
+      <div class="welcome">
+        <div>
+          <span>WELCOME BACK</span>
+          <h2>Arnold Adez 👋</h2>
+          <p>
+            Manage your ADEZ TECH projects and digital services
+            from one place.
+          </p>
+        </div>
+
+        <div class="welcome-icon">
+          &lt;/&gt;
+        </div>
+      </div>
+
+
+      <div class="stats">
+
+        <div class="stat-card">
+          <div class="stat-icon">🚀</div>
+          <div>
+            <span>Projects</span>
+            <strong>03</strong>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon">🛠️</div>
+          <div>
+            <span>Services</span>
+            <strong>06</strong>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon">🤖</div>
+          <div>
+            <span>Bots</span>
+            <strong>01</strong>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon">🔌</div>
+          <div>
+            <span>APIs</span>
+            <strong>01</strong>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="section-heading">
+        <h2>Our Services</h2>
+        <a href="#">View All</a>
+      </div>
+
+
+      <div class="service-grid">
+
+        <div class="service-card">
+          <div class="service-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>
+            Modern responsive websites and web applications.
+          </p>
+          <button>View Service</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🤖</div>
+          <h3>WhatsApp Bots</h3>
+          <p>
+            Smart WhatsApp automation and bot solutions.
+          </p>
+          <button>View Service</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔌</div>
+          <h3>API Development</h3>
+          <p>
+            Powerful APIs and application integrations.
+          </p>
+          <button>View Service</button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">⚙️</div>
+          <h3>Automation</h3>
+          <p>
+            Automate repetitive business processes.
+          </p>
+          <button>View Service</button>
+        </div>
+
+      </div>
+
+
+      <div class="section-heading projects-heading">
+        <h2>Recent Projects</h2>
+        <a href="#">View All</a>
+      </div>
+
+
+      <div class="projects">
+
+        <div class="project">
+          <div class="project-logo">BOT</div>
+
+          <div>
+            <h3>ADEZ WhatsApp Bot</h3>
+            <p>WhatsApp automation platform</p>
+          </div>
+
+          <span class="status">Active</span>
+        </div>
+
+
+        <div class="project">
+          <div class="project-logo">WEB</div>
+
+          <div>
+            <h3>ADEZ TECH Website</h3>
+            <p>Official company website</p>
+          </div>
+
+          <span class="status">Active</span>
+        </div>
+
+
+        <div class="project">
+          <div class="project-logo">API</div>
+
+          <div>
+            <h3>ADEZ API</h3>
+            <p>API integration system</p>
+          </div>
+
+          <span class="status">Development</span>
+        </div>
+
+      </div>
+
+
+      <div class="contact-card">
+
+        <div>
+          <span>NEED HELP?</span>
+
+          <h2>Talk to ADEZ TECH</h2>
+
+          <p>
+            Contact us through WhatsApp for technology
+            solutions and project support.
+          </p>
+        </div>
+
+        <a
+          href="https://wa.me/254111783552"
+          target="_blank"
+        >
+          WhatsApp Us
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <footer>
+      <p>
+        © <span id="year"></span> ADEZ TECH.
+        All Rights Reserved.
+      </p>
+
+      <p>
+        Built by <strong>Arnold Adez</strong>
+      </p>
+    </footer>
+
+  </main>
+
+
+  <script src="dashboard.js"></script>
+
+</body>
+</html>
